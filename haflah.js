@@ -33,6 +33,9 @@ window.onload = function() {
 
 document.querySelectorAll('.nav-indicator .btn').forEach(button => {
     button.addEventListener('click', function () {
+            document.querySelectorAll('.murub').forEach(button => {
+            button.classList.remove('murub');
+        });
         const targetId = this.getAttribute('data-target');
         const targetSection = document.querySelector(targetId);
         const activeSection = document.querySelector('.section.active');
