@@ -160,10 +160,9 @@ body {
     margin-top: -6px;
 }
 
-.nav-indicator button.active {
-    background-color: rgba(0, 255, 21, 0.1);
-    border: 1px solid white;
-    transform: scale(1.05);
+.nav-indicator button.murub {
+    background-color: #f5ad11;
+    color: black;
     -webkit-transform: scale(1.05);
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
@@ -171,14 +170,12 @@ body {
 }
 
 .nav-indicator .btn:hover {
-    background: rgba(255, 215, 0, 0.15);
-    border-color: #FFD700;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.2);
-    -webkit-transform: translateY(-2px);
-    -moz-transform: translateY(-2px);
-    -ms-transform: translateY(-2px);
-    -o-transform: translateY(-2px);
+    background-color: #f5ad11;
+    color: black;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
         .butterfly {
             position: absolute;
