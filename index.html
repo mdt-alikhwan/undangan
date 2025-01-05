@@ -120,63 +120,86 @@
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="eventModalLabel">Jadwal Acara</h5>
+        <h5 class="modal-title fw-bold" id="eventModalLabel">Rundown Acara</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="font-size: 13px;">
-        <!-- Event 1 -->
-        <div class="card mb-3">
-          <div class="card-header text-center bg-darkgreen text-white">
-            <strong>23 Januari 2025 - 20.00 - selesai</strong>
-          </div>
-          <div class="card-body">
-            <div class="card-title">Festival Hadroh</div>
-            <p class="card-text">Group Hadroh dari 10 lembaga MDT di Cilacap.</p>
-          </div>
-        </div>
-        
-        <!-- Event 2 -->
-        <div class="card mb-3">
-          <div class="card-header text-center bg-darkgreen text-white">
-            <strong>24 Januari 2025 - 13.00 - selesai</strong>
-          </div>
-          <div class="card-body">
-            <div class="card-title">Lomba-lomba</div>
-            <p class="card-text">Di halaman masjid al-istiqomah kandang banteng.</p>
-          </div>
-        </div>
+        <div class="table-responsive">
+          <table class="table table-striped table-bordered">
+            <thead class="text-center">
+              <tr>
+                <th class="col-5 text-uppercase fw-bold" style="color: darkgreen;">Hari / Tanggal</th>
+                <th class="col-7 text-uppercase fw-bold" style="color: darkgreen;">Keterangan Acara</th>
+              </tr>
+            </thead>
+            <tbody class="text-capitalize">
+              <!-- Event 1 -->
+              <tr>
+                <td class="align-middle"><strong>Jumat siang,</strong> <br> 24 Januari 2025 <br>Pukul 13.00 - selesai</td>
+                <td class="align-middle">
+                  <strong>Ziarah Kubur Massal</strong><br>
+                  <i> di TPU Pasir garu</i><br>
+                  (semua santri, guru, panitia dan masyarakat)</td>
+              </tr>
+              <!-- Event 1 -->
+              <tr>
+                <td class="align-middle"><strong>Jumat malam sabtu,</strong> <br> 24 Januari 2025 <br>Pukul 19.30 - selesai</td>
+                <td class="align-middle">
+                  <strong>Perlombaan santri</strong><br>
+                  <i> di masjid/ gedung MDT</i><br>
+                  (lomba LCC, lomba adzan, doa shalat dll)</td>
+              </tr>
+              <!-- Event 1 -->
+              <tr>
+                <td class="align-middle"><strong>sabtu siang,</strong> <br> 25 Januari 2025 <br>Pukul 13.00 - selesai</td>
+                <td class="align-middle">
+                  <strong>Perlombaan permainan</strong><br>
+                  <i> di halaman masjid/ MDT</i><br>
+                  (lomba balap karung, pecah air, gigit koin dll)</td>
+              </tr>
+              <!-- Event 1 -->
+              <tr>
+                <td class="align-middle"><strong>sabtu malam minggu,</strong> <br> 25 Januari 2025 <br>Pukul 19.30 - selesai</td>
+                <td class="align-middle">
+                  <strong>festival hadroh</strong><br>
+                  <i> di panggung utama</i><br>
+                  (peserta dari perwakilan MDT di kab. cilacap)</td>
+              </tr>
+              <!-- Event 1 -->
+              <tr>
+                <td class="align-middle"><strong>minggu pagi,</strong> <br> 26 Januari 2025 <br>Pukul 07.00 - selesai</td>
+                <td class="align-middle">
+                  <strong>pawa ta'aruf</strong><br>
+                  <i>titik kumpul halaman masjid/ MDT</i><br>
+                  (semua santri, guru, panitia dan masyarakat)</td>
+              </tr>
+              <!-- Event 1 -->
+              <tr>
+                <td class="align-middle"><strong>minggu siang,</strong> <br> 26 Januari 2025 <br>Pukul 14.00 - selesai</td>
+                <td class="align-middle">
+                  <strong>gladi bersih & pengumuman lomba</strong><br>
+                  <i>di panggung utama</i><br>
+                  (semua santri MDT Al-Ikhwan)</td>
+              </tr>
+              <!-- Event 1 -->
+              <tr>
+                <td class="align-middle"><strong>minggu malam senin,</strong> <br> 26 Januari 2025 <br>Pukul 19.00 - selesai</td>
+                <td class="align-middle">
+                  <strong>(pra acara) penampilan santri</strong><br>
+                  <i>di panggung utama</i><br>
+                  (semua santri MDT Al-Ikhwan)</td>
+              </tr>
+              <!-- Event 1 -->
+              <tr>
+                <td class="align-middle"><strong>minggu malam senin,</strong> <br> 26 Januari 2025 <br>Pukul 20.00 - selesai</td>
+                <td class="align-middle">
+                  <strong>Acara puncak haflah & haul</strong><br>
+                  <i>di panggung utama</i><br>
+                  (semua santri, guru, panitia, tamu undangan dan masyarakat)</td>
+              </tr>
 
-        <!-- Event 3 -->
-        <div class="card mb-3">
-          <div class="card-header text-center bg-darkgreen text-white">
-            <strong>25 Januari 2025 - 08.00 - selesai</strong>
-          </div>
-          <div class="card-body">
-            <div class="card-title">Ziarah Massal</div>
-            <p class="card-text">Pemakaman umum pasir garu.</p>
-          </div>
-        </div>
-
-        <!-- Event 4 -->
-        <div class="card mb-3">
-          <div class="card-header text-center bg-darkgreen text-white">
-            <strong>25 Januari 2025 - 13.00 - selesai</strong>
-          </div>
-          <div class="card-body">
-            <div class="card-title">Pawai Taaruf</div>
-            <p class="card-text">Diikuti oleh seluruh dewan guru, santri, wali santri, panitia, dan masyarakat.</p>
-          </div>
-        </div>
-
-        <!-- Event 5 -->
-        <div class="card mb-3">
-          <div class="card-header text-center bg-darkgreen text-white">
-            <strong>25 Januari 2025 - 20.00 - selesai</strong>
-          </div>
-          <div class="card-body">
-            <div class="card-title">Acara Puncak Haflah Akhirussanah dan Haul</div>
-            <p class="card-text">Panitia.</p>
-          </div>
+            </tbody>
+          </table>
         </div>
       </div>
       <div class="modal-footer">
